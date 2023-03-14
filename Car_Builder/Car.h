@@ -1,12 +1,7 @@
 #pragma once
 #include <string>
 #include <iostream>
-enum  CarType
-{
-	MiniAuto,
-	SportCar,
-	SUV
-};
+
 class Car
 {
 private:

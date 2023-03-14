@@ -1,11 +1,19 @@
 #pragma once
 #include "Car.h"
+enum  CarType
+{
+	MiniAuto,
+	SportCar,
+	SUV
+};
 class AutoTechnologi
 {
-private:
+protected:
 	Car* car = nullptr;
-private:
-	void createCar() { car = new Car(); }
+	CarType type;
+public:
+	AutoTechnologi(CarType type) :type(type) {}
+	void createCar() { car = new Car(); car->setType(type); }
 	Car* getCar() { return car; }
 	virtual void BuildBody() = 0;
 	virtual void InstalEngine() = 0;

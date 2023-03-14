@@ -129,10 +129,16 @@
   <ItemGroup>
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="Car_Builder.cpp" />
+    <ClCompile Include="MiniAutoTechnologi.cpp" />
+    <ClCompile Include="SportCarTechnologi.cpp" />
+    <ClCompile Include="SUVTechnologi.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AutoTechnologi.h" />
     <ClInclude Include="Car.h" />
+    <ClInclude Include="MiniAutoTechnologi.h" />
+    <ClInclude Include="SportCarTechnologi.h" />
+    <ClInclude Include="SUVTechnologi.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
