@@ -17,7 +17,7 @@ void SUVTechnologi::InstalWheels()
 
 void SUVTechnologi::Paint()
 {
-	car->setBody(" Black");
+	car->setColor(" Black");
 }
 
 void SUVTechnologi::PrepareSalone()

@@ -3,7 +3,7 @@
 class MiniAutoTechnologi : public AutoTechnologi
 {
 public:
-   MiniAutoTechnologi() :AutoTechnologi(MiniAuto) {}
+   MiniAutoTechnologi() :AutoTechnologi("MiniAuto") {}
    void BuildBody() override;
    void InstalEngine() override;
    void InstalWheels() override;

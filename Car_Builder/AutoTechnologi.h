@@ -1,18 +1,13 @@
 #pragma once
 #include "Car.h"
-enum  CarType
-{
-	MiniAuto,
-	SportCar,
-	SUV
-};
+
 class AutoTechnologi
 {
 protected:
-	Car* car = nullptr;
-	CarType type;
+	Car* car ;
+	std::string type;
 public:
-	AutoTechnologi(CarType type) :type(type) {}
+	AutoTechnologi(const std::string type) :type(type),car(nullptr) {}
 	void createCar() { car = new Car(); car->setType(type); }
 	Car* getCar() { return car; }
 	virtual void BuildBody() = 0;

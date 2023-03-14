@@ -7,7 +7,7 @@ void MiniAutoTechnologi::BuildBody()
 
 void MiniAutoTechnologi::InstalEngine()
 {
-	car->setEngine("Mini car engine");
+	car->setEngine(" Mini car engine");
 }
 
 void MiniAutoTechnologi::InstalWheels()
@@ -17,7 +17,7 @@ void MiniAutoTechnologi::InstalWheels()
 
 void MiniAutoTechnologi::Paint()
 {
-	car->setBody(" Green");
+	car->setColor(" Green");
 }
 
 void MiniAutoTechnologi::PrepareSalone()

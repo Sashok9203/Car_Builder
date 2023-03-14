@@ -7,7 +7,7 @@ void SportCarTechnologi::BuildBody()
 
 void SportCarTechnologi::InstalEngine()
 {
-	car->setEngine("Sport car engine");
+	car->setEngine(" Sport car engine");
 }
 
 void SportCarTechnologi::InstalWheels()
@@ -17,7 +17,7 @@ void SportCarTechnologi::InstalWheels()
 
 void SportCarTechnologi::Paint()
 {
-	car->setBody(" Red");
+	car->setColor(" Red");
 }
 
 void SportCarTechnologi::PrepareSalone()
