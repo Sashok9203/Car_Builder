@@ -5,23 +5,23 @@
 
 int main()
 {
-    Conveyor onveyor(new MiniAutoTechnologi());
-    onveyor.Build();
-    Car* car = onveyor.getResult();
+    Conveyor conveyor(new MiniAutoTechnologi());
+    conveyor.Build();
+    Car* car = conveyor.getResult();
     car->Show();
     delete car;
 
-    onveyor.setAutoTachnologi(new SportCarTechnologi());
-    onveyor.Build();
-    onveyor.getResult();
-    car = onveyor.getResult();
+    conveyor.setAutoTachnologi(new SportCarTechnologi());
+    conveyor.Build();
+    conveyor.getResult();
+    car = conveyor.getResult();
     car->Show();
     delete car;
 
-    onveyor.setAutoTachnologi(new SUVTechnologi());
-    onveyor.Build();
-    onveyor.getResult();
-    car = onveyor.getResult();
+    conveyor.setAutoTachnologi(new SUVTechnologi());
+    conveyor.Build();
+    conveyor.getResult();
+    car = conveyor.getResult();
     car->Show();
     delete car;
 
